@@ -1,0 +1,96 @@
+/* #283593 - Dark Blue 800 */
+
+* {
+    color: whitesmoke;
+    font-family: 'VT323';
+
+    margin: 0;
+}
+
+body {
+    background-color: #263238;
+}
+
+header {
+    background-color: #37474F;
+
+    text-align: center;
+    font-family: "BungeeShade";
+
+    padding: 2em;
+}
+
+main {
+    padding: 2em;
+}
+
+table {
+    background-color: #202B30;
+}
+
+footer {
+    background-color: #1F282D;
+
+    text-align: center;
+
+    padding: 5em;
+}
+
+#game-section {
+    position: relative;
+
+    height: 35em;
+}
+
+#game-overlay {
+    background-color: black;
+
+    position: absolute;
+    left: 50%;
+    width: 244px;
+    height: 430px;
+    transform: translate(-50%);
+}
+
+#game-overlay button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#game-overlay h3 {
+    text-align: center;
+
+    margin-top: 40%;
+}
+
+#button-start {
+    background-color: #37474F;  
+
+    border-radius: .5em;
+
+    padding: 1em;
+    transition: .3s;
+}
+
+#button-start:hover {
+    background-color: #263238;
+    transition: .3s;
+}
+
+#comment-section {
+    margin-top: 5em;
+}
+
+/* Custom Font */
+@font-face {
+    font-family: "BungeeShade";
+    src: url("/src/font/BungeeShade-Regular.ttf");
+}
+
+@font-face {
+    font-family: "VT323";
+    src: url("/src/font/VT323-Regular.ttf");
+}
+/* Custom Font */
